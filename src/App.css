@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+.responsive-img-logo {
+  height: auto;
+  width: auto;
+  max-height: 56px;
+  max-width: 250px;
+  margin-top: 10px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  min-height: 36px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
