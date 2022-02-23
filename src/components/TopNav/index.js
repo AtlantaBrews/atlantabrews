@@ -18,7 +18,7 @@ const TopNav = (props) => {
         <header>
             <nav>
                 <div className="nav-wrapper grey darken-4">
-                    <a href="/" className="brand-logo"><img className="responsive-img-logo" src={logo} alt="Atlanta Brews Logo" /></a>
+                    <a href="/" className="left brand-logo"><img className="responsive-img-logo" src={logo} alt="Atlanta Brews Logo" /></a>
                     <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
                     <ul className="right hide-on-med-and-down">
                         <li><a className='' id='Home' onClick={handleClick}>Home</a></li>
