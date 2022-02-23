@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = (props) => {
 
     return (
         <footer className="footer-copyright grey darken-4 valign-wrapper">
