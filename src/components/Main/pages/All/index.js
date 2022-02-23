@@ -9,7 +9,7 @@ const All = () => {
                 <div className="card-content white-text">
                     <span className="card-title">{brewery.name}</span>
                     <p>{brewery.description}</p>
-                    <a className='waves-effect waves-light btn' href={brewery.website}>Brewery Website</a>
+                    <a className='waves-effect waves-light btn' href={brewery.website} target='_blank' rel='noreferrer'>Brewery Website</a>
                 </div>
             </div>
         </div>
