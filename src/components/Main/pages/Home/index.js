@@ -37,6 +37,7 @@ const Home = () => {
                     <a href="#!" className="modal-close waves-effect waves-green btn-flat">Sign Me Up!</a>
                 </div>
             </div >
+            {/* end sign up modal code */}
 
             <img src={skyline} alt='Atlanta Skyline' className='responsive-img-skyline' />
             <div className='row'>
