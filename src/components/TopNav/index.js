@@ -28,7 +28,7 @@ const TopNav = (props) => {
                     </ul>
                 </div>
             </nav >
-            <ul className='sidenav' id='mobile-demo'>
+            <ul className='sidenav sidenav-close' id='mobile-demo'>
                 <li><a className='' id='HomeMobile' onClick={handleClick}>Home</a></li>
                 <li><a className='' id='AllMobile' onClick={handleClick}>All Breweries</a></li>
                 <li><a className='' id='RandomMobile' onClick={handleClick}>Help Me Pick!</a></li>
